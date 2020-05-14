@@ -2,7 +2,7 @@
 
 # Desafio I
 
-# Calcular
+Calcular
 POST - http://localhost:8080/calculadora
 {
 	"acao" : "Soma",
@@ -11,18 +11,19 @@ POST - http://localhost:8080/calculadora
 
 # Desafio II
 
-# Buscar Todos
+Buscar Todos
 GET - http://localhost:8080/pessoa
-# Buscar Por ID
+
+Buscar Por ID
 GET - http://localhost:8080/pessoa/1
 
-# Buscar Por Nome
+Buscar Por Nome
 GET -http://localhost:8080/pessoa/nome/James
 
-# Buscar Por Salario
+Buscar Por Salario
 GET - http://localhost:8080/pessoa/salario/1000
 
-# Alterar
+Alterar
 PUT - http://localhost:8080/pessoa/1
 {
     "id": 1,
@@ -31,7 +32,7 @@ PUT - http://localhost:8080/pessoa/1
     "salario": 6000.00
 }
 
-# Adicionar
+Adicionar
 POST - http://localhost:8080/pessoa
 }
  "nome": "James Gosling",
