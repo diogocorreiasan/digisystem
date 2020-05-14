@@ -34,7 +34,7 @@ PUT - http://localhost:8080/pessoa/1
 
 Adicionar
 POST - http://localhost:8080/pessoa
-}
+{
  "nome": "James Gosling",
     "idade": 55,
     "salario": 6000.00
